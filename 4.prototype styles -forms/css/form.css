@@ -1,0 +1,69 @@
+
+
+input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url]{
+
+	height: 33px;
+	padding: 0 10px;
+	margin: 0;
+	background: rgb(255,255,255);
+	border: 1px solid rgb(192,192,192);
+	color: rgb(64,64,64);
+
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	appearance:none;
+	
+}
+
+.button{
+	width:130px; 
+	min-width:50px; 
+	height:37px;
+	padding:3px; 
+	margin:3px;
+
+	border:1px solid rgb(48, 121, 237);
+	border-radius:3px; 
+	
+	color: #fff;
+	text-shadow:0 1px rgba(0,0,0,0.1);
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 0;
+
+	background-color:rgb(77, 144, 254); 
+	background-image: -webkit-linear-gradient(top,rgb(77, 144, 254),rgb(71, 135, 237));
+
+	cursor: default;
+
+	transition:all 0.2s;
+	
+	appearance:push-button;
+	box-sizing:border-box;
+
+}
+
+.button:hover{
+
+	border:1px solid rgb(47, 91, 183);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	text-shadow:0 1px rgba(0,0,0,0.3);
+	background-color: rgb(53, 122, 232);
+	background-image: -webkit-linear-gradient(top,rgb(77, 144, 254),rgb(53, 122, 232));
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.button:active{
+	background-color: rgb(53, 122, 232);
+	background-image: -webkit-linear-gradient(top,rgb(77, 144, 254),rgb(53, 122, 232));
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+
+}

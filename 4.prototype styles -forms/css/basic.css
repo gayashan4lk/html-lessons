@@ -1,0 +1,73 @@
+html{
+    color: #333;
+    font-family: 'lucida grande','lucida sans unicode','bitstream vera sans','dejavu sans','trebuchet ms',sans-serif ,arial;
+
+
+/*   
+fonts from famous web sites
+*****************************************************************************
+FACEBOOK    :   'Freight Sans Bold', 'lucida grande',tahoma,verdana,arial,sans-serif
+APPLE       :   "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif
+COURSERA    :   "sofiapro",Arial,sans-serif
+                "enriqueta",Garamond,serif
+GOOGLE      :   arial, helvetica, sans-serif
+HOTMAIL     :   "Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Helvetica Neue",Arial
+OTHER       :   'pragmatica-web','Helvetica Neue',Helvetica,Arial,sans-serif
+                atrament-web, Helvetica, Arial, sans-serif
+                "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif
+                Oswald,Arial,sans-serif
+
+
+*/
+
+
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#mainwrapper{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto 35px auto;
+    padding: 0;
+    border: 0;
+}
+
+
+#top{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+
+#topnav{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding: 10px 0 10px 0; 
+    border: 0;
+
+}
+
+#belowtopnav{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+.footer{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border: 0;
+
+}
