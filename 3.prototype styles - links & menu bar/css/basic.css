@@ -1,0 +1,168 @@
+/*====================================================================
+basic styles
+======================================================================*/
+
+
+html{
+    color: rgb(51,51,51);
+    font-family: 'lucida grande','lucida sans unicode','bitstream vera sans','dejavu sans','trebuchet ms',sans-serif ,arial;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-stroke: 1px rgba(0,0,0,0.02);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: 1em;
+}
+
+#mainwrapper{
+    width: 1220px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    padding-bottom: 30px;
+    border: 0;
+}
+
+
+#top{
+    width: 1220px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+
+#topnav{
+    width: 1220px;
+    height: auto;
+    margin: 10px auto;
+    padding: 0px 0px; 
+    border: 0;
+
+}
+
+.topnav h3 {
+    margin: 5px 15px;
+    text-shadow: 0px 0px 10px rgba(250, 250, 250,0.8);
+    font-weight: normal;
+}
+
+#belowtopnav{
+    width: 1220px;
+    height: auto;
+    margin: 30px auto 0 auto;
+    padding: 0;
+    border: 0;
+}
+
+.footer{
+    width: 1220px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    border: 0;
+
+}
+
+/*
+left menu bar
+*/
+#sidebar{
+    width: 179px;
+    height: 800px;
+    margin: 0 auto 0 0;
+    padding: 0;
+    padding-right: 1em;
+    border-right:1px  dotted #ccc;
+
+}
+
+
+/*====================================================================
+specific  styles
+======================================================================*/
+
+
+/* 
+font styles
+*/
+#title{
+    font-size: 5em;
+    margin: 0;
+    border-bottom: 0px solid #ccc;
+}
+
+
+#lucidagrande{
+    font-family: 'lucida grande';
+    font-size:1.15em;
+}
+
+#lucidasansunicode{
+    font-family: 'lucida sans unicode';
+    font-size:0.95em;
+}
+
+#bitstreamverasans{
+    font-family: 'bitstream vera sans';
+    font-size:1.15em;
+}
+
+#dejavusans{
+    font-family: 'dejavu sans';
+    font-size:1.15em;
+}
+
+#trebuchetms{
+    font-family: 'trebuchet ms';
+    font-size:1em;
+}
+
+
+#sinhalaunicode{
+    font-family: 'trebuchet ms';
+    font-size:3em;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-stroke: 1px rgba(0,0,0,0.15);
+}
+
+/* 
+link styles
+*/
+
+a[href="www.unicode.com"]{
+    color: rgb(51, 51, 51);
+}
+
+.menusubject a{
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-size: 1.1em;
+    
+}
+
+.menu-unit a{
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-size: 0.9em;
+    
+}
+
+.menu-main-topic a{
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-size: 0.75em;
+    
+}
+
+.menu-sub-topic a{
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+    font-size: 0.7em;
+    
+}

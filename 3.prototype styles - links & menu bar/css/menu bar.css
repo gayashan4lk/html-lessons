@@ -1,0 +1,18 @@
+#topnav{
+	width: 1220px;
+    height: auto;
+    margin: 8px auto;
+    padding: 0px 0; 
+    border: 1px solid rgb(177, 177, 177);
+
+    background: rgb(135, 187, 216);
+	color: rgb(247, 247, 247);
+
+    -moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 4px;
+	
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 220, .2)), color-stop(0.05, rgba(0, 0, 220, 0)), color-stop(0.97, rgba(0, 0, 220, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 220, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 220, 0)), to(rgba(0, 0, 220, .2))), -webkit-gradient(linear, 0 100%, 0 0, from(rgb(102, 102, 102)), color-stop(0.5, rgb(94, 94, 94)), color-stop(0.51, rgb(112, 112, 112)), to(rgb(128, 128, 128)));
+
+
+}
