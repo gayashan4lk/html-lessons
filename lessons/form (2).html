@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+    <head>
+        <title>form validation
+		</title>
+    </head>
+    <body>
+        
+            <table cellspacing="20" ><tr><td>
+                        <!--text boxes-->
+                        <p><label for="fname" >first name: </label>
+                            <input type="text" name="fname" id="fname" size="20"><br>
+                            <label for="lname" >last name: </label>
+                            <input type="text" name="lname" id="lname" size="20" ><br>
+                        </p>
+                        <!-- text area -->
+                        <p>
+                            <label for="address" >address: </label><br>
+                            <textarea name="address" id="address" col="20" row="4" ></textarea>
+                        </p>
+                        <!-- password -->
+                        <p>
+                            <label for="password"  >password: </label>
+                            <input type="password" name="password" id="password" size="20" >
+                        </p>
+             </td>
+             <td>
+                 <!--select list-->
+                 <p>
+                     <label for="products">what are you<br> like to do ? </label><br>
+                     <select name="prod[]" id="products" multiple="multiple" size="4" >
+                         <option id="swim" >swimming
+                         <option id="run" >running
+                         <option id="chess" >chess
+                         <option id="volly" >vollyball
+                         <option id="foor" >football
+                         <option id="tenis" >tenis
+                     </select>
+                 </p>
+                 <!--check boxes-->
+                 <fieldset>
+                    <legend>contact me via:</legend>
+                    <p>
+                        <input type="checkbox" name="email" id="email" checked >
+                        <label for="email" > Email </label><br>
+                        <input type="checkbox" name="postal" id="postal" checked >
+                        <label for="postal" >Postal</label>
+                    </p>
+                 </fieldset>
+             </td>
+                </tr>
+            <tr><td>
+                    <!--radio buttons-->
+                    <p>
+                        <fieldset>
+                            <legend>select one</legend>
+                            <p>
+                                <input type="radio" name="buy" value="ASAP" id="buyASPA" >
+                                <label for="buyASPA"  >ASPA</label><br>
+                                <input type="radio" name="buy" value="10" id="buy10" >
+                                <label for="buy10" >within 10 days</label><br>
+                                <input type="radio" name="buy" value="30" id="buy30" >
+                                <label for="buy30" >within a month</label><br>
+                                <input type="radio" name="buy" value="Never" id="buynever" >
+                                <label for="buynever">Never</label><br>
+                            </p>
+                        </fieldset>
+                </td>
+            <td>
+                <!--submit and reset buttons-->
+                <p>
+                    <input type="submit" >&nbsp;&nbsp:&nbsp;
+                    <input type="reset" >
+                </p>
+                <!--button-->
+                <p>
+                    <input type="button" name="leave" value="leave site!" >
+					<input type="button"  name="learn html" value="go_html" > 
+                </p>
+                <!--image-->
+                <input type="image" name="ferrari" src="img/ford.jpg" >
+                <!--hidden field-->
+                <input type="hidden" name="refferby" value="gayashan" >
+            </td></tr></table>
+            </form>
+    </body>
+</html>

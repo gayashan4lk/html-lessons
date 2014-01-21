@@ -1,0 +1,96 @@
+html,body{
+     margin:0px;
+     padding:0px;
+     border:0;
+}
+p{
+     margin:10px;
+     padding:0px;
+     border:1px solid brown;
+}
+
+div#wrap{
+     margin:0 auto;
+     padding:25px 0px;
+     border:2px solid black;
+     width:980px;
+     
+     
+     
+}
+
+div#header-container{
+     margin:0px 190px 0px 190px ;
+     padding:0px;
+     border:1px solid green;
+     width:980px;
+     height:150px;
+     float:left;
+     background-color:#fff000;
+     opacity:0.5;
+     
+}
+
+div#left-div{
+     margin:10px 190px 10px 190px ;
+     padding:0px;
+     border:1px solid green;
+     width:980px;
+     height:auto;
+     float:left;
+     background-color:#032837;
+}
+
+p#left-p-1{
+     margin:15px;
+     padding:30px;
+     border:5px solid blue;
+     width:300px;
+     height:auto;
+     float:left;
+}
+p#left-p-2{
+     margin:10px;
+     padding:10px;
+     border:5px solid darkblue;
+     width:300px;
+     height:auto;
+     float:right;
+}
+div#left-p-3{
+     margin:10px;
+     padding:10px;
+     border:1px solid pink;
+     width:700px;
+     height:200px;
+     float:right;
+}
+
+div#right-div{
+     margin:10px 190px 10px 190px;
+     padding:0px;
+     border:1px solid red;
+     width:980px;
+     height:auto;
+     float:left;
+}
+
+p#right-p{
+     margin:10px ;
+     padding:10px;
+     border:1px solid black;
+     width:250px;
+     height:auto;
+}
+
+div#bottom{
+     margin:10px 190px 10px 190px;
+     padding:0px;
+     border:1px solid darkgreen;
+     width:980px;
+     height:150px;
+     float:left;
+     background-color:#0fffff;
+     
+     
+}
