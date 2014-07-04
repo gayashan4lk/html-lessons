@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css"  href="  "  />
+<style type="text/css">
+	
+</style>
+
+
+<script type="text/javascript">
+	
+	/*var number1 = parseInt("3 dozen");
+	var number2 = parseInt("5");
+	var total = number2 + number1; 
+	*/
+	function getvalue(){
+	 	NoOfItems = document.getElementById("item").value ;
+	 }
+	 
+	function calculate(){
+	 	var value = NoOfItems * 10; 
+	 	document.getElementById("btn").value = " ok.im done!";
+	}
+	 
+
+	
+
+</script>
+
+<title>read form data    </title> 
+
+</head>
+
+<body>
+<form name="" method="post" action="form.html">
+	no of items :
+	<input id="item" type="text"  name="imitem" value="" onchange="getvalue();" />
+
+
+	<input id="btn" type="button" value="submit" onclick="calculate();" />
+</form>
+
+</body>
+
+</html>

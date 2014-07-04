@@ -1,0 +1,62 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+<style type="text/css">
+
+</style>
+
+<script type="text/javascript">
+
+	function validateNotEmpty(InputField,helpText){
+		if(InputField.value.length == 0){
+			if(helpText != null){
+				helpText.innerHTML = "Please Enter A value!";
+			}
+			return false;
+		}
+		else{
+			if(helpText != null){
+				helpText.innerHTML = "";
+			}
+			return true;
+		}
+	}
+
+	function validateLength(InputField,helpText){
+		if(InputField.value.length >= 32 ){
+			if(helpText != null){
+				helpText.innerHTML = "Please Enter A value not exeeding 32 characters!";
+			}
+			return false;
+		}
+	}
+
+</script>
+
+<title>form validation by JavaScripts    </title> 
+
+</head>
+<body>
+
+<form>
+<table>
+	<tr><td>First Name 	:</td>
+	<td><input id="fname" type="text" value="" size="32" name="fname" 
+		onblur="validateNotEmpty(this,document.getElementById('fname-help')); validateLength(this,document.getElementById('fname-help'));" /><span id="fname-help" class="help" > </span></td></tr>
+	<tr><td>Last Name 	:</td>
+	<td><input id="lname" type="text" value="" size="32" name="lname"  /></td></tr>
+	<tr><td>E-mail 	:</td>
+	<td><input id="email" type="text" value="" size="32" name="email" /></td></tr>
+	<tr><td>Postal Code 	:</td>
+	<td><input id="pcode" type="text" value="" size="32" name="pcode" /></td></tr>
+	<tr><td>Password 	:</td>
+	<td><input id="password" type="password" value="" size="32" name="password" /></td></tr>
+	<tr><td></td></tr>
+	<tr><td><input id="submit" type="submit	" value="CREAT MY ACCOUNT" name="submit" /></td></tr>
+</table>
+</form>
+
+</body>
+
+</html>
