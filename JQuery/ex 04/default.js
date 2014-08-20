@@ -1,0 +1,10 @@
+$(function(){
+	$('.wrap').hover(
+		function(){
+		$(this).children('.front').stop().animate({'top':'250px'},300);
+		},
+		function(){
+		$(this).children('.front').stop().animate({'top':'0px'},300);
+		} 
+	);
+});

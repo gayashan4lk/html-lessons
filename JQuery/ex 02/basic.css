@@ -1,0 +1,11 @@
+#box{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(54,25,26);
+}
+.border{
+	border:5px solid blue;
+}
+.highlight{
+	background-color: rgb(180,180,180);
+}

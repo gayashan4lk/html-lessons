@@ -1,0 +1,20 @@
+#container{
+	width:1300px;
+	text-align: center;
+	margin: auto;
+}
+img{
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.wrap{
+	width: 400px;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 0 10px;
+}
